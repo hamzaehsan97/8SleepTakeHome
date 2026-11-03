@@ -1,0 +1,16 @@
+[project]
+name = "toyraft"
+version = "0.1.0"
+description = "A small Raft implementation with a deterministic simulated network"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["raft", "sim"]

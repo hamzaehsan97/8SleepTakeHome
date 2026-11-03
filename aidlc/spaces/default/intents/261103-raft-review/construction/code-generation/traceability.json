@@ -1,0 +1,41 @@
+{
+  "stage": "code-generation",
+  "upstream_ids": [
+    "FR1.1",
+    "FR1.2",
+    "FR2.1",
+    "FR2.2",
+    "FR3.1",
+    "FR3.2",
+    "FR4.1",
+    "FR4.2",
+    "FR5.1",
+    "FR5.2",
+    "FR5.3",
+    "FR5.4",
+    "FR6.1",
+    "FR7.1",
+    "NFR1",
+    "NFR2",
+    "NFR3"
+  ],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "aidlc/spaces/default/intents/261103-raft-review/construction/code-generation/code-summary.md" },
+    { "id": "FR1.2", "status": "OK", "target": "aidlc/spaces/default/intents/261103-raft-review/construction/code-generation/code-summary.md" },
+    { "id": "FR2.1", "status": "OK", "target": "tests/test_mutation_check.py" },
+    { "id": "FR2.2", "status": "OK", "target": "tests/test_mutation_check.py" },
+    { "id": "FR3.1", "status": "OK", "target": "tests/test_invariants_negative.py" },
+    { "id": "FR3.2", "status": "OK", "target": "tests/test_storage.py" },
+    { "id": "FR4.1", "status": "OK", "target": "pyproject.toml" },
+    { "id": "FR4.2", "status": "OK", "target": "README.md" },
+    { "id": "FR5.1", "status": "OK", "target": "docs/design-decisions.md" },
+    { "id": "FR5.2", "status": "OK", "target": "README.md" },
+    { "id": "FR5.3", "status": "OK", "target": "README.md" },
+    { "id": "FR5.4", "status": "OK", "target": "README.md" },
+    { "id": "FR6.1", "status": "OK", "target": "tests/test_linearizable.py" },
+    { "id": "FR7.1", "status": "OK", "target": "raft/node.py" },
+    { "id": "NFR1", "status": "OK", "target": "tests/test_storage.py" },
+    { "id": "NFR2", "status": "OK", "target": "tests/test_node_unit.py" },
+    { "id": "NFR3", "status": "OK", "target": "tools/mutation_check.py" }
+  ]
+}
